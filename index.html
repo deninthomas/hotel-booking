@@ -1,61 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <html lang="en">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <div id="headerid">
+          <img src="assests/images/logo.png" id="logo" alt="logo" />
+          <span><a href="login.html" target="_self">Login</a></span>
+        </div>
+      </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Index</title>
-        <link rel="stylesheet" href="styles/index.css" />
+      <div>
+        <div id="search">
+          <form>
+            <label for="serach"></label>
+            <input
+              type="text"
+              id="serach"
+              name="username"
+              placeholder="City"
+              autocomplete="off"
+            /><br />
+          </form>
+        </div>
+        <div class="citycard">
+          <div class="citycardimg">
+            <a href="list.html" target="_self">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                class="cityimg"
+                alt="delhi"
+              />
+            </a>
+          </div>
+          <div class="citycardimg">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+              class="cityimg"
+              alt="goa"
+            />
+          </div>
+          <div class="citycardimg">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+              class="cityimg"
+              alt="charminar"
+            />
+          </div>
+          <div class="citycardimg">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+              class="cityimg"
+              alt="kolkata-calcutta"
+            />
+          </div>
+        </div>
+        <p><a href="index.html">View More>></a></p>
+      </div>
 
-</head>
-<body>
-  <div id="content"></div>
-  <header>
-    <div id="header"></div>
-   
-    <img src="assests/images/logo.png"id="logo"alt="logo">
-     <span><a href="login.html"target="_self">Login</a></span>
-</header>
-   
-  </div> 
-
-    <div>
-    <form>
-      <label for="serach"></label>
-      <input type="text" id="serach" name="username" placeholder="City" autocomplete="off"><br>
-    </form>
-    <a href="list.html"target="_self"> 
-
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"class="City" alt="delhi">
-    </a>
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"class="City" alt="goa">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"class="City" alt="charminar">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"class="City" alt="kolkata-calcutta">
-    <p><a href="index.html">View More>></a></p>
-
-
-
-  </div>
-<div>
-  <footer>
-  <div id="footer"></div>
-          <p><a href="contact.html"target="_self">Contact Us</a> </p>
-          <a href="https://www.facebook.com"target="_blank">
-          <img src="assests/images/facebook.png" class="social"alt="facebook">
+      <footer>
+        <div id="footerid">
+          <p><a href="contact.html" target="_self">Contact Us</a></p>
+          <a href="https://www.facebook.com" target="_blank">
+            <img
+              src="assests/images/facebook.png"
+              class="social"
+              alt="facebook"
+            />
           </a>
-          <a href="https://www.instagram.com"target="_blank">
-          <img src="assests/images/instagram.png" class="social"alt="instagram">
+          <a href="https://www.instagram.com" target="_blank">
+            <img
+              src="assests/images/instagram.png"
+              class="social"
+              alt="instagram"
+            />
           </a>
-          <a href="https://www.twitter.com"target="_blank">
-          <img src="assests/images/twitter.png" class="social"alt="twitter">
+          <a href="https://www.twitter.com" target="_blank">
+            <img
+              src="assests/images/twitter.png"
+              class="social"
+              alt="twitter"
+            />
           </a>
           <p>&copy; 2020 ROOM SEARCH PRIVATE PVT.LTD</p>
-
+        </div>
       </footer>
-     
-  </div>
-</div>
-</body>
+    </div>
+  </body>
 </html>

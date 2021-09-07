@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #e0e0e0;
+  
+}
+#body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+.social {
+  height: 20px;
+  width: 22px;
+}
+#headerid {
+  background-color: rosybrown;
+}
+#footerid {
+  background-color: rosybrown;
+
+  bottom: 0;
+  width: 100%;
+}
+#content {
+  width: 100%;
+  height: 100%;
+}

@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<html>
   <title>list</title>
-  
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Index</title>
-  <link rel="stylesheet" href="styles/list.css" />
-    </head>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="styles/list.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+  </head>
 
   <body>
     <div id="content">
-      
       <header>
-        
-        <a href="index.html"target="_self"> 
-        <img
-          src="assests/images/logo.png"
-          id=logo
-          alt="logo"
-        />
-        </a>
-        <span><a href="login.html" target="_self">Login</a></span>
+        <div id="headerid">
+          <a href="index.html" target="_self">
+            <img src="assests/images/logo.png" id="logo" alt="logo" />
+          </a>
+          <span><a href="login.html" target="_self">Login</a></span>
+        </div>
       </header>
 
       <div>
@@ -36,68 +31,83 @@
             <a href="#map"><li>Map View</li></a>
           </p>
         </ul>
+      </div>
+
         <div id="hotel">
-        <a href="detail.html" target="_self">
+          <div class="hotelimg">
+          <a href="detail.html" target="_self">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+              alt="Radisson Blu Hotel"
+              class="stay"
+            />
+          
+            <h3>Radission Blu Hotel</h3>
+            <p>5 Star</p>
+            <p>New Delhi</p>
+          </a>
+          </div>
+
+          <div class="hotelimg">
           <img
-            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-            alt="Radisson Blu Hotel"
+            src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
+            alt="The Lalit New Delhi"
             class="stay"
           />
-
-          <h3>Radission Blu Hotel</h3>
-          <p>5 Star</p>
+          <p>The Lalit New Delhi</p>
+          <p>4.5 Star</p>
           <p>New Delhi</p>
-        </a>
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
-          alt="The Lalit New Delhi"
-          class="stay"
-        />
-        <p>The Lalit New Delhi</p>
-        <p>4.5 Star</p>
-        <p>New Delhi</p>
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
-          alt="Taj Palace"
-          class="stay"
-        />
-        <p>Taj Palace</p>
-        <p>4.0 Star</p>
-        <p>New Delhi</p>
-        <img
-          src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
-          alt="Map"
-        />
+          </div>
+
+          <div class="hotelimg">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
+            alt="Taj Palace"
+            class="stay"
+          />
+          
+          <p>Taj Palace</p>
+          <p>4.0 Star</p>
+          <p>New Delhi</p>
         </div>
-        <div id="map">
-        <p>Map View</p>
-      </div>
-      </div>
+         
+          <img
+            src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
+            alt="Map"
+          />
+          <div id="map">
+          <p>Map View</p>
+          </div>
+      
 
       <footer>
-        <p><a href="contact.html" target="_self">Contact Us</a></p>
-        <a href="https://www.facebook.com" target="_blank">
-          <img
-            src="assests/images/facebook.png"
-            class="social"
-            alt="facebook"
-          />
-        </a>
-        <a href="https://www.instagram.com" target="_blank">
-          <img
-            src="assests/images/instagram.png"
-            class="social"
-            alt="instagram"
-          />
-        </a>
-        <a href="https://www.twitter.com" target="_blank">
-          <img
-            src="assests/images/twitter.png"
-            class="social"
-            alt="twitter"
-          />
-        </a>
-        <p>&copy; 2020 ROOM SEARCH PRIVATE PVT.LTD</p>
+      <div id="footerid">
+     
+          <p><a href="contact.html" target="_self">Contact Us</a></p>
+          <a href="https://www.facebook.com" target="_blank">
+            <img
+              src="assests/images/facebook.png"
+              class="social"
+              alt="facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img
+              src="assests/images/instagram.png"
+              class="social"
+              alt="instagram"
+            />
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img
+              src="assests/images/twitter.png"
+              class="social"
+              alt="twitter"
+            />
+          </a>
+          <p>&copy; 2020 ROOM SEARCH PRIVATE PVT.LTD</p>
+       
+       </div>
       </footer>
     </div>
   </body>
