@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <title></title>
+    <head>
+        <title>Login</title>
+    </head>
     <body>
         <div>
-            <form action="index.html">
+            <!-- Added the Login form -->
+            <form action="index.html" autocomplete="off" method="get">
                 <label for="username">Username:</label>
-                <input type="text" id="uname" name="username" placeholder="Enter Username" autocomplete="off"required><br>
+                <input type="text" name="username" id="username" placeholder="Enter Username" required/>
+                <br>
                 <label for="password">Password:</label>
-                <input type="password" id="upassword" name="password" placeholder="Enter password" autocomplete="off"required><br>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required/>
+                <br>
                 <input type="submit" value="Login">
             </form>
         </div>
