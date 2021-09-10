@@ -70,3 +70,23 @@
   display: flex;
   justify-content: center;
 }
+@media only screen and (min-width: 992px) {
+  #search-bar {
+      display: block;
+      width: 28%;
+      margin: 0 auto;
+      border: 1px solid transparent;
+      border-radius: 12px;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #f1f1f1;
+      outline: none; 
+  }
+  #city-cards {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+}

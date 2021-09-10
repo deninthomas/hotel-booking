@@ -39,3 +39,32 @@
 #pills-tab {
   justify-content: center;
 }
+@media only screen and (min-width: 992px) {
+  #list-view {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin: 0 !important;
+  }
+  #map-view {
+      margin: 0 !important;
+  }
+  .hotel-cards {
+      margin: 2% 5%;
+      background-color: lightgrey;
+      height: 200px;
+      width: 40%;
+  }
+  .hotel-cards:hover {
+      background-color: rosybrown;
+  }
+  .hotel-card {
+      display: flex;
+      flex-direction: row;
+  }
+  .hotel-image {
+      height: 200px;
+      width: 250px;
+  }
+}
