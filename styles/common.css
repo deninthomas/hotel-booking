@@ -1,5 +1,4 @@
 /* Added CSS for header and footer */
-/* Common */
 * {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -10,7 +9,6 @@ html, body {
   background-color: #e0e0e0;  
 }
 a {
-  text-decoration: none !important;
   color: black !important;
 }
 .main-container {
@@ -61,6 +59,7 @@ footer {
 }
 .heading {
   font-family: cursive !important;
+  margin-top: 1%;
 }
 #login-form {
   display: flex;
@@ -77,12 +76,4 @@ footer {
 }
 .checked {
   color: orange;
-}
-@media only screen and (max-width: 576px) {
-  #contact-us {
-      margin: 6px;
-  }
-  #social-media {
-      padding-right: 15px;
-  }
 }

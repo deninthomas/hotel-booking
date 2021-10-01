@@ -1,6 +1,4 @@
-/* Loader */
-/* Animation*/
-.loader { 
+#loader { 
     border: 12px solid #f3f3f3; 
     border-radius: 50%; 
     border-top: 12px solid #444444; 
@@ -13,10 +11,10 @@
     left: 0; 
     right: 0; 
     margin: auto;
-} 
-
-@keyframes spin { 
+  } 
+  
+  @keyframes spin { 
     100% { 
         transform: rotate(360deg); 
     } 
-} 
+  } 
