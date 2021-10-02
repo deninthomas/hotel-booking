@@ -1,12 +1,9 @@
-//Trip Advisor API URL, host and key are stored in const variables
+//Travel Advisor API URL, host and key are stored in const variables
 const API_URL = "https://travel-advisor.p.rapidapi.com/";
 const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 
-/*
-This function will manage the behavior of view more button and will show the new city cards if view more button is clicked 
-and hides the new city cards when view less button is clicked
-*/
+
 let viewMore = () => {
     let viewMoreButtonElement = document.getElementById("view-more-button");
     if (viewMoreButtonElement.innerText == "View More") {

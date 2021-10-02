@@ -4,7 +4,7 @@ const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 const PRICE_PER_ROOM = 1000;
 
-/* Function to update the Price field in the booking form, according to the dates, number of adults and total price */
+
 let updatePrice = () => {
     let adultElement = document.getElementById("adult");
     let totalPriceElement = document.getElementById("price");

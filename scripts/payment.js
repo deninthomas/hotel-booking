@@ -3,7 +3,7 @@ const API_URL = "https://travel-advisor.p.rapidapi.com/";
 const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 
-/* Fetch the API data for hotel details, and price calculation, and finally create all the text dynamically */
+
 let fetchAPI = () => {
     let xhr = new XMLHttpRequest();
 

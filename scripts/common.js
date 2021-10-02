@@ -117,10 +117,10 @@ let disableLoader = () => {
  * @param {*} e event
  */
  let login = e => {
-   // setting both username and password to admin
+   
    localStorage.setItem('username', 'admin');
    localStorage.setItem('password', 'admin');
-   // setting the user state as non logged on webpage load
+   
    localStorage.setItem('isLogin', 'false');
  
    e.preventDefault();
@@ -139,7 +139,7 @@ let disableLoader = () => {
         location.reload();
    } else {
       alert('Incorrect credentials! Login failed!');
-      // clearing values of username & password fields from login modal
+      
       userElement.value = '';
       passwordElement.value = '';
    }
