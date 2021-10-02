@@ -1,6 +1,6 @@
 //Trip Advisor API URL, host and key are stored in const variables
-const API_URL = "https://tripadvisor1.p.rapidapi.com/";
-const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
+const API_URL = "https://travel-advisor.p.rapidapi.com/";
+const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 
 /*
@@ -19,9 +19,7 @@ let viewMore = () => {
     }
 }
 
-// Debounce is used to control number of times a function is being executed
-// if it is beign called repeatedly
-// read more - https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086
+
 let debounce = (func, wait, immediate) => {
     let timeout;
     return function executedFunction() {

@@ -1,6 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
-const API_URL = "https://tripadvisor1.p.rapidapi.com/";
-const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
+const API_URL = "https://travel-advisor.p.rapidapi.com/";
+const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 
 /* Fetch the API data for hotel details, and price calculation, and finally create all the text dynamically */
@@ -29,7 +29,7 @@ let fetchAPI = () => {
         }
     });
 
-    xhr.open("GET", "2e7636770amsh70de13951eb8369p128fc1jsnc3a74384824e" + "hotels/get-details?lang=en_US&location_id=" + urlParams.get('id'));
+    xhr.open("GET", API_URL + "hotels/get-details?lang=en_US&location_id=" + urlParams.get('id'));
     xhr.setRequestHeader("x-rapidapi-host", tripAdvisorHost);
     xhr.setRequestHeader("x-rapidapi-key", tripAdvisorKey);
 

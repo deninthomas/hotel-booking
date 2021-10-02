@@ -1,6 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
-const API_URL = "https://tripadvisor1.p.rapidapi.com/";
-const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
+const API_URL = "https://travel-advisor.p.rapidapi.com/";
+const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 const PRICE_PER_ROOM = 1000;
 

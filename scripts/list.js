@@ -1,6 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
-const API_URL = "https://tripadvisor1.p.rapidapi.com/";
-const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
+const API_URL = "https://travel-advisor.p.rapidapi.com/";
+const tripAdvisorHost = "travel-advisor.p.rapidapi.com";
 const tripAdvisorKey = "33f6eefe93mshe1030941278d731p1c16b3jsn541fa4c16290";
 
 //this function is used to initialize the google map and place the markers at the position obtained by the latitude and longitude of the hotel from the API
@@ -59,6 +59,7 @@ let initList = hotelList => {
 //This function is used to display the list of hotels in a particular city fetched from the API 
 let fetchHotelListAPI = () => {
     let xhr = new XMLHttpRequest();
+    // xhr.withCredentials = true;
 
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === this.DONE) {
@@ -73,8 +74,7 @@ let fetchHotelListAPI = () => {
             disableLoader();
         }
     });
-
-    xhr.open("GET", API_URL + "locations/search?lang=en_US&limit=100&query=" + urlParams.get('city'));
+    xhr.open("GET", API_URL + "locations/search?&query=" + urlParams.get('city'));
     xhr.setRequestHeader("x-rapidapi-host", tripAdvisorHost);
     xhr.setRequestHeader("x-rapidapi-key", tripAdvisorKey);
 
